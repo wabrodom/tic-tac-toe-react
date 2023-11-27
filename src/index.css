@@ -86,7 +86,12 @@ body {
 }
 .game {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+}
+
+.game > * {
+  width: 40%;
 }
 
 .game-info {
